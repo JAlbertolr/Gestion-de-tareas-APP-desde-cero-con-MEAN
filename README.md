@@ -12,6 +12,10 @@ Este proyecto Full Stack MEAN permite gestionar tareas a través de una API en N
 ---
 
 ## 🎨 Uso de la aplicación
+
+### 📌 Diseño de la interfaz
+![image](https://github.com/user-attachments/assets/21659cf7-f994-4198-b530-ae9558fb5d7e)
+
 ### 📌 Añadir una nueva tarea
 1. Introduce un **título** y una **descripción** (opcional).
 2. Haz clic en el botón **Añadir**.
