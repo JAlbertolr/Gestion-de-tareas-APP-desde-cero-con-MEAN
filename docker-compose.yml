@@ -27,9 +27,9 @@ services:
     build:
       context: ./gestor-tareas
     image: juanalbertolr/gestordetareas-frontend:latest  # Etiqueta para el frontend
-    container_name: front
+    container_name: gestor-tareas
     ports:
-      - "4200:4200"
+      - "80:80"
     depends_on:
       - backend
     restart: unless-stopped
