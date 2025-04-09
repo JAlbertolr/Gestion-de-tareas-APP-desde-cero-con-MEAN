@@ -25,9 +25,9 @@ services:
 
   frontend:
     build:
-      context: ./frontend
+      context: ./gestor-tareas
     image: juanalbertolr/gestordetareas-frontend:latest  # Etiqueta para el frontend
-    container_name: frontend
+    container_name: front
     ports:
       - "4200:4200"
     depends_on:
