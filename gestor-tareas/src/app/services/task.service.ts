@@ -7,7 +7,7 @@ import { Task } from '../models/task.models';
   providedIn: 'root',
 })
 export class TaskService {
-  private apiUrl = 'http://localhost:5000/appFullStackMEAN/tasks'; 
+  private apiUrl = 'https://gestion-de-tareas-app-backend.onrender.com/appFullStackMEAN/tasks';
 
   constructor(private http: HttpClient) {}
 
